@@ -32,9 +32,9 @@ Turtle will dig quarry 5x5 blocks to the desired depth.
 
 use:
 
-dig <depth>
+dig depth
 
-<depth> - depth career.
+depth - depth career.
 
 Example: dig 20 - turtle will dig down into 20 blocks.
 
@@ -50,17 +50,17 @@ light
 
 Illuminator career 
 
-<code>Use: light <depth> [<interval>] 
+Use: light depth [interval] 
 
-<depth> - depth career. 
+depth - depth career. 
 
-<interval> - (optional) Set the unit lighting every <interval> blocks. 
+interval - (optional) Set the unit lighting every interval blocks. 
 
 Example: light April 20 - Illuminate the mine at a depth of 20, putting every 3 unit on the fourth, a special unit lighting. 
-</code>
+
 In slot 1 bug put the basic building blocks for lining (you can not put, but then dug turtle fill mined trash or leave holes). 
 
-Slot 2: If the second parameter (<interval>) is put here glowing block. This can be a pumpkin-light, light painting unit or conventional torch (although this is less reliable).
+Slot 2: If the second parameter (interval) is put here glowing block. This can be a pumpkin-light, light painting unit or conventional torch (although this is less reliable).
 
 tunnel3355
 ----------
@@ -71,11 +71,11 @@ Turtle digs a tunnel given length of 3x3 block lined or tunnel of circular cross
 
 use: 
 
-tunnel <distance> [<interval>] 
+tunnel distance [interval] 
 
-<distance> - length of the tunnel. 
+distance - length of the tunnel. 
 
-<interval> - (optional) If this parameter is specified, then the turtle lighting supply unit for every <interval> blocks. 
+interval - (optional) If this parameter is specified, then the turtle lighting supply unit for every interval blocks. 
 
 To configure first 8 slots: 
 
@@ -87,9 +87,9 @@ Slot # 3: Similarly, for the ceiling.
 
 Slot # 4: Similarly, for flor. 
 
-If the second parameter (<interval>): 
+If the second parameter (interval): 
 
-Slot # 5: If you are in this slot blocks, then every <interval> blocks, install bug in the center of the left wall, a block from the slot. Typically, this lighting unit. 
+Slot # 5: If you are in this slot blocks, then every interval blocks, install bug in the center of the left wall, a block from the slot. Typically, this lighting unit. 
 
 Slot # 6: Similarly, for the right wall. 
 
